@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            background-color:ivory;
+            align-items: center;
+        }
+        header{
+            text-align: center;
+        }
+        section{
+            margin: 20px auto;
+            border: 3px solid red;
+            padding:20px;
+            background-color:lavender;
+            text-align: center;
+            width:50%
+        }
+        button{
+                padding: 10px;
+                margin:10px;
+        border-radius:25%;
+        cursor: pointer;
+        background-color: antiquewhite;
+        }
+        button :hover{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Registration page</h1>
+    </header>
+    <section>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <br>
+
+        <br>
+        <label>Flat/House Number</label>
+        <input type="text" placeholder="H-No:">
+        <br>
+        <br>
+        <br>
+        <label>Email</label>
+        <input type="email" placeholder="@gmail.com">
+        <br>
+        <br>
+        <br>
+
+        <label>Mobile Number</label>
+        <input type="number" placeholder="+91">
+        <br>
+        <br>
+        <br>
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password">
+        <br>
+        <br>
+        <br>
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm Password">
+        <br>
+        <br>
+        <br>
+        <label>Resident Type</label>
+        <input type="radio" id="owner" name="resident_type" value="Owner">
+        <label for="owner">Owner</label>
+        <input type="radio" id="tenant" name="resident_type" value="Tenant">
+        <label for="tenant">Tenant</label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="dashboard.html"><button>Register</button></a>
+    </section>
+</body>
+</html>

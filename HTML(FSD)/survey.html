@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <style>
+        body{
+            align-items: center;
+ 
+        }
+        header{
+            text-align: center;
+        }
+        h3{
+            color:blueviolet;
+        }
+        button{
+                padding: 10px;
+                margin:10px;
+        background-color: rgb(250, 18, 188);
+                   text-align: center;
+        }
+        button:hover{
+            background-color: aqua;
+        }
+        section{
+            background-color: white;
+            border-radius: 15px;
+            margin: 20px;
+            padding: 20px ;
+            width: 90%;
+            box-shadow: 0px 0px 5px fuchsia;
+        }
+        .btn{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Society Survey Page</h1>
+    </header>
+    <section>
+        <h3>Clinliness Satisfaction</h3>
+        <input type="radio" name="clean"> Excellent
+        <input type="radio" name="clean"> Good
+        <input type="radio" name="clean"> Average
+        <input type="radio" name="clean"> Poor
+    </section>
+    <section>
+        <h3>Security Service Feedback</h3>
+        <input type="radio" name="secure"> Excellent
+        <input type="radio" name="secure"> Good
+        <input type="radio" name="secure"> Average
+        <input type="radio" name="secure"> Poor
+    </section>
+    <section>
+        <h3>Parking Issues</h3>
+        <input type="checkbox" name="park"> Excellent
+        <input type="checkbox" name="park"> Good
+        <input type="checkbox" name="park"> Average
+        <input type="checkbox" name="park"> Poor
+    </section>
+    <section>
+        <h3>Water supply feedback</h3>
+        <select>
+            <option>Excellent</option>
+            <option>Good</option>
+            <option>Average</option>
+            <option>Poor</option>
+        </select>
+    </section>
+    <section>
+        <h3>Maintenance Quality</h3>
+        <input type="radio" name="maintenance"> Excellent
+        <input type="radio" name="maintenance"> Good
+        <input type="radio" name="maintenance"> Average
+        <input type="radio" name="maintenance"> Poor
+
+        
+
+    </section>
+    <section>
+        <h3>Suggestions</h3>
+        <textarea placeholder="Enter your suggestions here..."></textarea>
+    </section>
+    <br>
+    <br>
+    <div class="btn">
+    <button>submit</button>
+    </div>
+</body>
+</html>

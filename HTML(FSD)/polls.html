@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll</title>
+    <style>
+        body{
+            align-items: center;
+            text-align: center;
+            background-color:#f3e8ff;
+        }
+        h1{
+            color: blueviolet;
+        }
+        .head{
+            color:darkgreen
+        }
+        h2{
+            color:deeppink
+        }
+        .poll-container{
+            margin: 20px auto;
+            border: 3px solid red;
+            padding:20px;
+            background-color:#ffffff;
+            text-align: center;
+            width:50%;
+            animation:ani 2s;;
+            animation-iteration-count:1;
+        }
+        .poll{
+            background-color: aliceblue;
+            border-radius: 30px;
+            margin: 20px;
+            padding: 20px;
+            width: 70;
+            box-shadow: 0px 0px 5px #ffb6c1;
+            transition: transform 2s ease-in-out;
+        }
+        .poll:hover{
+            transform: rotate3d(0, 1, 0, 45deg);
+        }
+        @keyframes ani {
+            0%{
+                opacity: 0;
+                transform: translateY(50px);
+                
+            }
+            100%{
+                opacity: 1;
+                transform: translateY(0);
+            }
+            
+        }
+        .active{
+            color: darkblue;
+        }
+        .btn:hover{
+            background-color: aqua;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Poll Management page</h1>
+        <h2 class="head">Active Status</h2>
+    </header>
+    <div class="poll-container">
+        <div class="poll">
+            <h2>President Election</h2>
+            <p><b>Start Date:</b>June 10</p>
+            <p><b>End Date:</b>June 15</p>
+            <p class="active"><b>Status Active</b></p>
+            <a href="vote.html"><button class="btn">Vote now</button></a>
+        </div>
+        <div class="poll">
+            <h2>Secretary Election</h2>
+            <p><b>Start Date:</b>June 10</p>
+            <p><b>End Date:</b>June 15</p>
+            <p class="active"><b>Status Active</b></p>
+            <a href="vote.html"><button class="btn">Vote now</button></a>
+        </div>
+        <div class="poll">
+            <h2>Treasurer Election</h2>
+            <p><b>Start Date:</b>June 5</p>
+            <p><b>End Date:</b>June 15</p>
+            <p class="active"><b>Status Active</b></p>
+            <a href="vote.html"><button class="btn">Vote now</button></a>
+        </div>
+        <div class="poll">
+            <h2>Culture Committee head</h2>
+            <p><b>Start Date:</b>May 10</p>
+            <p><b>End Date:</b>May 15</p>
+            <p class="active"><b> closed</b></p>
+            <a href="vote.html"><button class="btn">Vote now</button></a>
+        </div>
+    </div>
+</body>
+</html>
