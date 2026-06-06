@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+</head>
+<body>
+    <div class="container-fluid bg-primary text-white py-3">
+        <div class="container">
+            <h2 class="text-center">CVR College of Engineering</h2>
+            <h5 class="text-center">Student Dashboard</h5>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+
+        <!-- Statistics Cards -->
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5>Total Students</h5>
+                        <h2 class="text-primary">1200</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5>Present Students</h5>
+                        <h2 class="text-success">1120</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5>Absent Students</h5>
+                        <h2 class="text-danger">80</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5>Placements</h5>
+                        <h2 class="text-warning">950</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Search Box -->
+        <div class="mt-5">
+            <input type="text"
+                   class="form-control"
+                   placeholder="Search Student by Name or Roll Number">
+        </div>
+        <div class="card mt-4 shadow">
+            <div class="card-header bg-primary text-white text-center">
+                Student Dashboard
+            </div>
+            <div class="card-boy">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover text-center">
+                        <thead class="table-dark">
+                            <tr>
+                            <th>Name</th>
+                            <th>Roll no</th>
+                            <th>Branch</th>
+                            <th>Attendence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Akanksha</td>
+                                <td>23B81A05Y4</td>
+                                <td>CSE</td>
+                                <td><span class="badge bg-success">98%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Milky</td>
+                                <td>23B81A05CW</td>
+                                <td>CSE</td>
+                                <td><span class="badge bg-warning">50%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Shravys</td>
+                                <td>23B81A05BF</td>
+                                <td>CSE</td>
+                                <td><span class="badge bg-danger">18%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Priyanka</td>
+                                <td>23B81A05AK</td>
+                                <td>CSE</td>
+                                <td><span class="badge bg-success">88%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Pooja</td>
+                                <td>22B81A05AN</td>
+                                <td>CSE</td>
+                                <td><span class="badge bg-success">88%</span></td>
+                            </tr>
+                        </tbody>
+                    </div>
+                </table>
+            </div>
+        </div>
+</body>
+</html>
