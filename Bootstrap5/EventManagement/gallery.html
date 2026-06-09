@@ -1,0 +1,260 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery - CVR Fest 2026</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .carousel-caption{
+            background: rgba(0,0,0,0.5);
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body class="bg-light">
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold"
+           href="index.html">
+            CVR Events
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse"
+             id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="events.html">
+                        Events
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active"
+                       href="#">
+                        Gallery
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="registration.html">
+                        Registration
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- Carousel -->
+
+<div id="galleryCarousel"
+     class="carousel slide"
+     data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="https://picsum.photos/1200/500?random=21"
+                 class="d-block w-100"
+                 alt="Hackathon">
+            <div class="carousel-caption">
+                <h3>Hackathon Moments</h3>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?random=22"
+                 class="d-block w-100"
+                 alt="Project Expo">
+            <div class="carousel-caption">
+                <h3>Project Expo</h3>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?random=23"
+                 class="d-block w-100"
+                 alt="Coding Contest">
+            <div class="carousel-caption">
+                <h3>Coding Contest</h3>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?random=24"
+                 class="d-block w-100"
+                 alt="Quiz Competition">
+            <div class="carousel-caption">
+                <h3>Quiz Competition</h3>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?random=25"
+                 class="d-block w-100"
+                 alt="Dance Performance">
+            <div class="carousel-caption">
+                <h3>Dance Performance</h3>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?random=26"
+                 class="d-block w-100"
+                 alt="Prize Distribution">
+            <div class="carousel-caption">
+                <h3>Prize Distribution</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#galleryCarousel"
+            data-bs-slide="prev">
+
+        <span class="carousel-control-prev-icon"></span>
+
+    </button>
+
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#galleryCarousel"
+            data-bs-slide="next">
+
+        <span class="carousel-control-next-icon"></span>
+
+    </button>
+
+</div>
+
+<!-- Gallery Section -->
+
+<div class="container py-5">
+
+    <h1 class="text-center text-primary mb-5">
+        Event Gallery
+    </h1>
+
+    <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="https://picsum.photos/500/300?random=21"
+                     class="card-img-top img-fluid">
+                <div class="card-body text-center">
+                    <h5>Hackathon Moments</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="https://picsum.photos/500/300?random=22"
+                     class="card-img-top img-fluid">
+                <div class="card-body text-center">
+                    <h5>Project Expo</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="https://picsum.photos/500/300?random=23"
+                     class="card-img-top img-fluid">
+                <div class="card-body text-center">
+                    <h5>Coding Contest</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="https://picsum.photos/500/300?random=24"
+                     class="card-img-top img-fluid">
+                <div class="card-body text-center">
+                    <h5>Quiz Competition</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="https://picsum.photos/500/300?random=25"
+                     class="card-img-top img-fluid">
+                <div class="card-body text-center">
+                    <h5>Dance Performance</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="https://picsum.photos/500/300?random=26"
+                     class="card-img-top img-fluid">
+                <div class="card-body text-center">
+                    <h5>Prize Distribution</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="bg-primary text-white text-center py-3">
+    © 2026 CVR College Event Management System
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```
