@@ -1,0 +1,5 @@
+const fs=require("fs");
+console.log("start")
+const data=fs.readFileSync("demo.txt","utf-8");
+console.log(data);
+console.log("end")
